@@ -1,4 +1,4 @@
-import { makeStyle } from "@material-ui/styles";
+import { makeStyles } from "@material-ui/styles";
 
 const centeredStyleObj = {
     display: "flex",
@@ -6,8 +6,8 @@ const centeredStyleObj = {
     justifyContent: "center"
 };
 
-export default makeStyle({
-    container: {
+export default makeStyles({
+        container: {
         height: "100vh",
         flexDirection: "column",
         ...centeredStyleObj
@@ -38,4 +38,4 @@ export default makeStyle({
     movieIcon:{
         fontSize: "4rem"
     }
-})
+});

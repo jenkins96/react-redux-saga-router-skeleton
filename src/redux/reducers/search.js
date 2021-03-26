@@ -1,5 +1,5 @@
 import { get } from "lodash";
-import { SEARCH_MOVIE_START, SEARCH_MOVIE_ERROR, SEARCH_MOVIE_COMPELTE } from "../../consts/actionTypes.js";
+import { SEARCH_MOVIE_START, SEARCH_MOVIE_ERROR, SEARCH_MOVIE_COMPLETE } from "../../consts/actionTypes.js";
 
 const initialState = {};
 
