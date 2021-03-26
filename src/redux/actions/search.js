@@ -1,6 +1,11 @@
-import { SEARCH_MOVIE_START } from "../../consts/actionTypes.js";
+import { SEARCH_MOVIE_START, SEARCH_MOVIE_BY_ID_START } from "../../consts/actionTypes.js";
 
 export const searchMovie = payload => ({
     type: SEARCH_MOVIE_START,
     payload
 });
+
+export const searchMovieById = payload => ({
+    type: SEARCH_MOVIE_BY_ID_START,
+    payload
+})
